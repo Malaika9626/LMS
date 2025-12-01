@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto Regular'),
+       url('/fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+       url('/fonts/roboto/Roboto-Regular.woff') format('woff'),
+       url('/fonts/roboto/Roboto-Regular.ttf') format('truetype'),
+       url('/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto Bold'),
+       url('/fonts/roboto/Roboto-Bold.woff2') format('woff2'),
+       url('/fonts/roboto/Roboto-Bold.woff') format('woff'),
+       url('/fonts/roboto/Roboto-Bold.ttf') format('truetype'),
+       url('/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* Variable font fallback to cover weight range if static files missing */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: local('Roboto'), url('/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* Global base styles */
+:root {
+  --bg: 255 255 255;
+  --fg: 17 24 39;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: 'Roboto', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+}
+/* Global button pointer cursor */
+button {
+  cursor: pointer;
+}
