@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "course": "Intro to Programming",
+    "assignment": "Assignment 1",
+    "grade": 82,
+    "feedback": "Good start",
+    "studentEmail": "student@smartlearn.test"
+  },
+  {
+    "id": 2,
+    "course": "Data Structures",
+    "assignment": "Assignment 1",
+    "grade": 88,
+    "feedback": "Nice complexity analysis",
+    "studentEmail": "student@smartlearn.test"
+  },
+  {
+    "id": 3,
+    "course": "Web Development",
+    "assignment": "Assignment 1",
+    "grade": 98,
+    "feedback": "Clean UI",
+    "studentEmail": "student@smartlearn.test"
+  },
+  {
+    "id": 4,
+    "course": "Intro to Programming",
+    "assignment": "Assignment 1",
+    "grade": 80,
+    "feedback": "Keep it up good work.",
+    "studentEmail": "usman@gmail.com"
+  },
+  {
+    "id": 5,
+    "course": "Data Structures",
+    "assignment": "Assignment 2",
+    "grade": 98,
+    "feedback": "Excellent.",
+    "studentEmail": "student@smartlearn.test"
+  },
+  {
+    "id": 6,
+    "course": "Web Development",
+    "assignment": "Assignment 4",
+    "grade": 75,
+    "feedback": "Good work keep pushing harder.",
+    "studentEmail": "usman@gmail.com"
+  },
+  {
+    "id": 7,
+    "course": "Data Structures",
+    "assignment": "Assignment 2",
+    "grade": 35,
+    "feedback": "what is this?",
+    "studentEmail": "student@smartlearn.test"
+  },
+  {
+    "id": 8,
+    "course": "Intro to Programming",
+    "assignment": "Assignment 1",
+    "grade": 10,
+    "feedback": "???????",
+    "studentEmail": "usman@gmail.com"
+  }
+]
