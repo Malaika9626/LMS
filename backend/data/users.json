@@ -1,0 +1,32 @@
+[
+  {
+    "email": "admin@smartlearn.test",
+    "password": "password",
+    "role": "admin"
+  },
+  {
+    "email": "teacher@smartlearn.test",
+    "password": "password",
+    "role": "teacher"
+  },
+  {
+    "email": "student@smartlearn.test",
+    "password": "password",
+    "role": "student"
+  },
+  {
+    "email": "usman@gmail.com",
+    "password": "12345",
+    "role": "student"
+  },
+  {
+    "email": "malaika@gmail.com",
+    "password": "12345",
+    "role": "student"
+  },
+  {
+    "email": "majid@gmail.com",
+    "password": "12345",
+    "role": "teacher"
+  }
+]
